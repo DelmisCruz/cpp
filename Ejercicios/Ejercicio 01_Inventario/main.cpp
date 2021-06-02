@@ -30,9 +30,9 @@ void movimientoInventario(string codigo, int cantidad, string tipoMovimiento){
 	{
 		if(productos[i][0]==codigo){					
 			if(tipoMovimiento == "+"){
-				productos[i][2] = stoi(productos[i][2])+ cantidad;
+				productos[i][2] = stoi(productos[i][2]) + cantidad;
 			}else{
-				productos[i][2] = stoi(productos[i][2] )- cantidad;
+				productos[i][2] = stoi(productos[i][2] ) - cantidad;
 		
 			}
 			
@@ -56,7 +56,7 @@ void ingresoDeInventario(){
 		cin>>cantidad;
 		cout<<endl;
 		
-		movimientoInventario(codido, cantidad, "+");
+		movimientoInventario(codigo, cantidad, "+");
 }
 
 int main(int argc, char** argv) {
