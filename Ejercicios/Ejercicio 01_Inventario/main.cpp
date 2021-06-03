@@ -141,7 +141,7 @@ int main(int argc, char const *argv[])
         case 3:
             salidaDeInventario();
             break;
-		case 4:
+	case 4:
             ajustePositivoDeInventario();
             break;
         case 5:
